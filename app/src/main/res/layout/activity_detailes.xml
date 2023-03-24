@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailes">
+
+    <ImageButton
+        android:id="@+id/_imageuploadmeal"
+        android:layout_width="182dp"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/txtna"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/_imageuploadmeal"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="10dp"
+        android:hint="name : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtdes"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/txtna"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="10dp"
+        android:hint="desc : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtnum"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/txtdes"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="10dp"
+        android:hint="num : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
